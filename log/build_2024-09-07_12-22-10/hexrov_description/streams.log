@@ -1,0 +1,42 @@
+[0.018s] Invoking command in '/home/giri/hexrov/build/hexrov_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/giri/hexrov/src/hexrov_description -DCMAKE_INSTALL_PREFIX=/home/giri/hexrov/install/hexrov_description
+[0.107s] -- The C compiler identification is GNU 11.4.0
+[0.194s] -- The CXX compiler identification is GNU 11.4.0
+[0.205s] -- Detecting C compiler ABI info
+[0.321s] -- Detecting C compiler ABI info - done
+[0.331s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.331s] -- Detecting C compile features
+[0.332s] -- Detecting C compile features - done
+[0.336s] -- Detecting CXX compiler ABI info
+[0.467s] -- Detecting CXX compiler ABI info - done
+[0.477s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.477s] -- Detecting CXX compile features
+[0.478s] -- Detecting CXX compile features - done
+[0.482s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.703s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.838s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.954s] -- Added test 'lint_cmake' to check CMake code style
+[0.955s] -- Added test 'xmllint' to check XML markup files
+[0.957s] -- Configuring done
+[0.962s] -- Generating done
+[0.963s] -- Build files have been written to: /home/giri/hexrov/build/hexrov_description
+[0.970s] Invoked command in '/home/giri/hexrov/build/hexrov_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/giri/hexrov/src/hexrov_description -DCMAKE_INSTALL_PREFIX=/home/giri/hexrov/install/hexrov_description
+[0.974s] Invoking command in '/home/giri/hexrov/build/hexrov_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/giri/hexrov/build/hexrov_description -- -j12 -l12
+[1.040s] Invoked command in '/home/giri/hexrov/build/hexrov_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/giri/hexrov/build/hexrov_description -- -j12 -l12
+[1.095s] Invoking command in '/home/giri/hexrov/build/hexrov_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/giri/hexrov/build/hexrov_description
+[1.106s] -- Install configuration: ""
+[1.106s] -- Installing: /home/giri/hexrov/install/hexrov_description/share/ament_index/resource_index/package_run_dependencies/hexrov_description
+[1.106s] -- Installing: /home/giri/hexrov/install/hexrov_description/share/ament_index/resource_index/parent_prefix_path/hexrov_description
+[1.107s] -- Installing: /home/giri/hexrov/install/hexrov_description/share/hexrov_description/environment/ament_prefix_path.sh
+[1.107s] -- Installing: /home/giri/hexrov/install/hexrov_description/share/hexrov_description/environment/ament_prefix_path.dsv
+[1.107s] -- Installing: /home/giri/hexrov/install/hexrov_description/share/hexrov_description/environment/path.sh
+[1.108s] -- Installing: /home/giri/hexrov/install/hexrov_description/share/hexrov_description/environment/path.dsv
+[1.108s] -- Installing: /home/giri/hexrov/install/hexrov_description/share/hexrov_description/local_setup.bash
+[1.108s] -- Installing: /home/giri/hexrov/install/hexrov_description/share/hexrov_description/local_setup.sh
+[1.108s] -- Installing: /home/giri/hexrov/install/hexrov_description/share/hexrov_description/local_setup.zsh
+[1.108s] -- Installing: /home/giri/hexrov/install/hexrov_description/share/hexrov_description/local_setup.dsv
+[1.108s] -- Installing: /home/giri/hexrov/install/hexrov_description/share/hexrov_description/package.dsv
+[1.109s] -- Installing: /home/giri/hexrov/install/hexrov_description/share/ament_index/resource_index/packages/hexrov_description
+[1.109s] -- Installing: /home/giri/hexrov/install/hexrov_description/share/hexrov_description/cmake/hexrov_descriptionConfig.cmake
+[1.109s] -- Installing: /home/giri/hexrov/install/hexrov_description/share/hexrov_description/cmake/hexrov_descriptionConfig-version.cmake
+[1.109s] -- Installing: /home/giri/hexrov/install/hexrov_description/share/hexrov_description/package.xml
+[1.114s] Invoked command in '/home/giri/hexrov/build/hexrov_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/giri/hexrov/build/hexrov_description
