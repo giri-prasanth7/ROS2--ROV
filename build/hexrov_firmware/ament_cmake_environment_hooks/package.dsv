@@ -1,0 +1,4 @@
+source;share/hexrov_firmware/local_setup.bash
+source;share/hexrov_firmware/local_setup.dsv
+source;share/hexrov_firmware/local_setup.sh
+source;share/hexrov_firmware/local_setup.zsh

@@ -1,0 +1,265 @@
+[0.106s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.106s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78ed6c033850>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78ed6c133fa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78ed6c133fa0>>, mixin_verb=('build',))
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.266s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/giri/hexrov'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_bringup) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_bringup) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_bringup) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_bringup) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_bringup) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_bringup) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_bringup) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_bringup) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hexrov_bringup' with type 'ros.ament_cmake' and name 'hexrov_bringup'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_description) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_description) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_description) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_description) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_description) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_description) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_description) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_description) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_description) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hexrov_description' with type 'ros.ament_cmake' and name 'hexrov_description'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_firmware) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_firmware) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_firmware) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_firmware) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_firmware) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_firmware) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_firmware) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/hexrov_firmware) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hexrov_firmware' with type 'ros.ament_cmake' and name 'hexrov_firmware'
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.303s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/giri/hexrov/install
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 55 installed packages in /home/giri/ws_moveit2/install
+[0.306s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/giri/ros2_ws/install
+[0.307s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 401 installed packages in /opt/ros/humble
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'hexrov_description' build argument 'cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'hexrov_description' build argument 'cmake_target' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'hexrov_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'hexrov_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'hexrov_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'hexrov_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'hexrov_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'hexrov_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'hexrov_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.368s] DEBUG:colcon.colcon_core.verb:Building package 'hexrov_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giri/hexrov/build/hexrov_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giri/hexrov/install/hexrov_description', 'merge_install': False, 'path': '/home/giri/hexrov/src/hexrov_description', 'symlink_install': False, 'test_result_base': None}
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_firmware' build argument 'cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_firmware' build argument 'cmake_target' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.369s] DEBUG:colcon.colcon_core.verb:Building package 'hexrov_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giri/hexrov/build/hexrov_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giri/hexrov/install/hexrov_firmware', 'merge_install': False, 'path': '/home/giri/hexrov/src/hexrov_firmware', 'symlink_install': False, 'test_result_base': None}
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_bringup' build argument 'cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_bringup' build argument 'cmake_target' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'hexrov_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.369s] DEBUG:colcon.colcon_core.verb:Building package 'hexrov_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giri/hexrov/build/hexrov_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giri/hexrov/install/hexrov_bringup', 'merge_install': False, 'path': '/home/giri/hexrov/src/hexrov_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.369s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.370s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.370s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/giri/hexrov/src/hexrov_description' with build type 'ament_cmake'
+[0.370s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/giri/hexrov/src/hexrov_description'
+[0.372s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.372s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.381s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/giri/hexrov/src/hexrov_firmware' with build type 'ament_cmake'
+[0.381s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/giri/hexrov/src/hexrov_firmware'
+[0.381s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.381s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giri/hexrov/build/hexrov_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giri/ws_moveit2/install/moveit_configs_utils:/home/giri/ws_moveit2/install/launch_param_builder:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/giri/hexrov/build/hexrov_description -- -j12 -l12
+[0.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giri/hexrov/build/hexrov_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giri/ws_moveit2/install/moveit_configs_utils:/home/giri/ws_moveit2/install/launch_param_builder:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/giri/hexrov/build/hexrov_firmware -- -j12 -l12
+[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giri/hexrov/build/hexrov_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giri/ws_moveit2/install/moveit_configs_utils:/home/giri/ws_moveit2/install/launch_param_builder:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/giri/hexrov/build/hexrov_description -- -j12 -l12
+[0.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giri/hexrov/build/hexrov_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giri/ws_moveit2/install/moveit_configs_utils:/home/giri/ws_moveit2/install/launch_param_builder:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/giri/hexrov/build/hexrov_firmware -- -j12 -l12
+[0.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giri/hexrov/build/hexrov_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giri/ws_moveit2/install/moveit_configs_utils:/home/giri/ws_moveit2/install/launch_param_builder:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/giri/hexrov/build/hexrov_description
+[0.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giri/hexrov/build/hexrov_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giri/ws_moveit2/install/moveit_configs_utils:/home/giri/ws_moveit2/install/launch_param_builder:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/giri/hexrov/build/hexrov_firmware
+[0.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hexrov_description)
+[0.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giri/hexrov/build/hexrov_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giri/ws_moveit2/install/moveit_configs_utils:/home/giri/ws_moveit2/install/launch_param_builder:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/giri/hexrov/build/hexrov_description
+[0.544s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_description' for CMake module files
+[0.544s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_description' for CMake config files
+[0.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexrov_description', 'cmake_prefix_path')
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/hook/cmake_prefix_path.ps1'
+[0.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/hook/cmake_prefix_path.dsv'
+[0.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/hook/cmake_prefix_path.sh'
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_description/bin'
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_description/lib/pkgconfig/hexrov_description.pc'
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_description/lib/python3.10/site-packages'
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_description/bin'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/package.ps1'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/package.dsv'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/package.sh'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/package.bash'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/package.zsh'
+[0.549s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giri/hexrov/install/hexrov_description/share/colcon-core/packages/hexrov_description)
+[0.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hexrov_firmware)
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_firmware' for CMake module files
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giri/hexrov/build/hexrov_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/giri/ws_moveit2/install/moveit_configs_utils:/home/giri/ws_moveit2/install/launch_param_builder:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/giri/hexrov/build/hexrov_firmware
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_firmware' for CMake config files
+[0.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexrov_firmware', 'cmake_prefix_path')
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/hook/cmake_prefix_path.ps1'
+[0.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/hook/cmake_prefix_path.dsv'
+[0.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/hook/cmake_prefix_path.sh'
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_firmware/bin'
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_firmware/lib/pkgconfig/hexrov_firmware.pc'
+[0.554s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_firmware/lib/python3.10/site-packages'
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_firmware/bin'
+[0.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/package.ps1'
+[0.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/package.dsv'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/package.sh'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/package.bash'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/package.zsh'
+[0.556s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giri/hexrov/install/hexrov_firmware/share/colcon-core/packages/hexrov_firmware)
+[0.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hexrov_description)
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_description' for CMake module files
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_description' for CMake config files
+[0.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexrov_description', 'cmake_prefix_path')
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/hook/cmake_prefix_path.ps1'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/hook/cmake_prefix_path.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/hook/cmake_prefix_path.sh'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_description/bin'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_description/lib/pkgconfig/hexrov_description.pc'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_description/lib/python3.10/site-packages'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_description/bin'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/package.ps1'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/package.dsv'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/package.sh'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/package.bash'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_description/share/hexrov_description/package.zsh'
+[0.602s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giri/hexrov/install/hexrov_description/share/colcon-core/packages/hexrov_description)
+[0.602s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/giri/hexrov/src/hexrov_bringup' with build type 'ament_cmake'
+[0.602s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/giri/hexrov/src/hexrov_bringup'
+[0.602s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.602s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hexrov_firmware)
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_firmware' for CMake module files
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_firmware' for CMake config files
+[0.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexrov_firmware', 'cmake_prefix_path')
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/hook/cmake_prefix_path.ps1'
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/hook/cmake_prefix_path.dsv'
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/hook/cmake_prefix_path.sh'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_firmware/bin'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_firmware/lib/pkgconfig/hexrov_firmware.pc'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_firmware/lib/python3.10/site-packages'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_firmware/bin'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/package.ps1'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/package.dsv'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/package.sh'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/package.bash'
+[0.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_firmware/share/hexrov_firmware/package.zsh'
+[0.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giri/hexrov/install/hexrov_firmware/share/colcon-core/packages/hexrov_firmware)
+[0.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giri/hexrov/build/hexrov_bringup': CMAKE_PREFIX_PATH=/home/giri/hexrov/install/hexrov_description:/home/giri/hexrov/install/hexrov_firmware:/home/giri/hexrov/install/hexrov_bringup:/home/giri/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/giri/ws_moveit2/install/moveit_runtime:/home/giri/ws_moveit2/install/moveit2_tutorials:/home/giri/ws_moveit2/install/moveit:/home/giri/ws_moveit2/install/moveit_planners:/home/giri/ws_moveit2/install/pilz_industrial_motion_planner:/home/giri/ws_moveit2/install/moveit_visual_tools:/home/giri/ws_moveit2/install/moveit_task_constructor_visualization:/home/giri/ws_moveit2/install/moveit_task_constructor_demo:/home/giri/ws_moveit2/install/moveit_task_constructor_capabilities:/home/giri/ws_moveit2/install/moveit_task_constructor_core:/home/giri/ws_moveit2/install/moveit_ros_control_interface:/home/giri/ws_moveit2/install/moveit_plugins:/home/giri/ws_moveit2/install/moveit_simple_controller_manager:/home/giri/ws_moveit2/install/moveit_setup_assistant:/home/giri/ws_moveit2/install/moveit_setup_srdf_plugins:/home/giri/ws_moveit2/install/moveit_setup_core_plugins:/home/giri/ws_moveit2/install/moveit_setup_controllers:/home/giri/ws_moveit2/install/moveit_setup_app_plugins:/home/giri/ws_moveit2/install/moveit_setup_framework:/home/giri/ws_moveit2/install/moveit_servo:/home/giri/ws_moveit2/install/moveit_ros:/home/giri/ws_moveit2/install/moveit_ros_visualization:/home/giri/ws_moveit2/install/moveit_hybrid_planning:/home/giri/ws_moveit2/install/moveit_ros_planning_interface:/home/giri/ws_moveit2/install/moveit_ros_benchmarks:/home/giri/ws_moveit2/install/moveit_ros_warehouse:/home/giri/ws_moveit2/install/moveit_ros_robot_interaction:/home/giri/ws_moveit2/install/moveit_ros_perception:/home/giri/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/giri/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/giri/ws_moveit2/install/moveit_ros_move_group:/home/giri/ws_moveit2/install/moveit_planners_ompl:/home/giri/ws_moveit2/install/moveit_ros_planning:/home/giri/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/giri/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/giri/ws_moveit2/install/moveit_planners_chomp:/home/giri/ws_moveit2/install/moveit_kinematics:/home/giri/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/giri/ws_moveit2/install/chomp_motion_planner:/home/giri/ws_moveit2/install/moveit_core:/home/giri/ws_moveit2/install/srdfdom:/home/giri/ws_moveit2/install/rviz_marker_tools:/home/giri/ws_moveit2/install/rosparam_shortcuts:/home/giri/ws_moveit2/install/moveit_task_constructor_msgs:/home/giri/ws_moveit2/install/moveit_resources_prbt_support:/home/giri/ws_moveit2/install/moveit_resources:/home/giri/ws_moveit2/install/moveit_resources_pr2_description:/home/giri/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/giri/ws_moveit2/install/moveit_resources_panda_description:/home/giri/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/giri/ws_moveit2/install/moveit_resources_fanuc_description:/home/giri/ws_moveit2/install/moveit_common:/home/giri/ros2_ws/install/my_robot_bringup:/home/giri/ros2_ws/install/my_robot_interfaces:/home/giri/ws_moveit2/install/moveit_configs_utils:/home/giri/ws_moveit2/install/launch_param_builder:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/giri/hexrov/build/hexrov_bringup -- -j12 -l12
+[0.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giri/hexrov/build/hexrov_bringup' returned '0': CMAKE_PREFIX_PATH=/home/giri/hexrov/install/hexrov_description:/home/giri/hexrov/install/hexrov_firmware:/home/giri/hexrov/install/hexrov_bringup:/home/giri/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/giri/ws_moveit2/install/moveit_runtime:/home/giri/ws_moveit2/install/moveit2_tutorials:/home/giri/ws_moveit2/install/moveit:/home/giri/ws_moveit2/install/moveit_planners:/home/giri/ws_moveit2/install/pilz_industrial_motion_planner:/home/giri/ws_moveit2/install/moveit_visual_tools:/home/giri/ws_moveit2/install/moveit_task_constructor_visualization:/home/giri/ws_moveit2/install/moveit_task_constructor_demo:/home/giri/ws_moveit2/install/moveit_task_constructor_capabilities:/home/giri/ws_moveit2/install/moveit_task_constructor_core:/home/giri/ws_moveit2/install/moveit_ros_control_interface:/home/giri/ws_moveit2/install/moveit_plugins:/home/giri/ws_moveit2/install/moveit_simple_controller_manager:/home/giri/ws_moveit2/install/moveit_setup_assistant:/home/giri/ws_moveit2/install/moveit_setup_srdf_plugins:/home/giri/ws_moveit2/install/moveit_setup_core_plugins:/home/giri/ws_moveit2/install/moveit_setup_controllers:/home/giri/ws_moveit2/install/moveit_setup_app_plugins:/home/giri/ws_moveit2/install/moveit_setup_framework:/home/giri/ws_moveit2/install/moveit_servo:/home/giri/ws_moveit2/install/moveit_ros:/home/giri/ws_moveit2/install/moveit_ros_visualization:/home/giri/ws_moveit2/install/moveit_hybrid_planning:/home/giri/ws_moveit2/install/moveit_ros_planning_interface:/home/giri/ws_moveit2/install/moveit_ros_benchmarks:/home/giri/ws_moveit2/install/moveit_ros_warehouse:/home/giri/ws_moveit2/install/moveit_ros_robot_interaction:/home/giri/ws_moveit2/install/moveit_ros_perception:/home/giri/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/giri/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/giri/ws_moveit2/install/moveit_ros_move_group:/home/giri/ws_moveit2/install/moveit_planners_ompl:/home/giri/ws_moveit2/install/moveit_ros_planning:/home/giri/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/giri/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/giri/ws_moveit2/install/moveit_planners_chomp:/home/giri/ws_moveit2/install/moveit_kinematics:/home/giri/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/giri/ws_moveit2/install/chomp_motion_planner:/home/giri/ws_moveit2/install/moveit_core:/home/giri/ws_moveit2/install/srdfdom:/home/giri/ws_moveit2/install/rviz_marker_tools:/home/giri/ws_moveit2/install/rosparam_shortcuts:/home/giri/ws_moveit2/install/moveit_task_constructor_msgs:/home/giri/ws_moveit2/install/moveit_resources_prbt_support:/home/giri/ws_moveit2/install/moveit_resources:/home/giri/ws_moveit2/install/moveit_resources_pr2_description:/home/giri/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/giri/ws_moveit2/install/moveit_resources_panda_description:/home/giri/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/giri/ws_moveit2/install/moveit_resources_fanuc_description:/home/giri/ws_moveit2/install/moveit_common:/home/giri/ros2_ws/install/my_robot_bringup:/home/giri/ros2_ws/install/my_robot_interfaces:/home/giri/ws_moveit2/install/moveit_configs_utils:/home/giri/ws_moveit2/install/launch_param_builder:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/giri/hexrov/build/hexrov_bringup -- -j12 -l12
+[0.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giri/hexrov/build/hexrov_bringup': CMAKE_PREFIX_PATH=/home/giri/hexrov/install/hexrov_description:/home/giri/hexrov/install/hexrov_firmware:/home/giri/hexrov/install/hexrov_bringup:/home/giri/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/giri/ws_moveit2/install/moveit_runtime:/home/giri/ws_moveit2/install/moveit2_tutorials:/home/giri/ws_moveit2/install/moveit:/home/giri/ws_moveit2/install/moveit_planners:/home/giri/ws_moveit2/install/pilz_industrial_motion_planner:/home/giri/ws_moveit2/install/moveit_visual_tools:/home/giri/ws_moveit2/install/moveit_task_constructor_visualization:/home/giri/ws_moveit2/install/moveit_task_constructor_demo:/home/giri/ws_moveit2/install/moveit_task_constructor_capabilities:/home/giri/ws_moveit2/install/moveit_task_constructor_core:/home/giri/ws_moveit2/install/moveit_ros_control_interface:/home/giri/ws_moveit2/install/moveit_plugins:/home/giri/ws_moveit2/install/moveit_simple_controller_manager:/home/giri/ws_moveit2/install/moveit_setup_assistant:/home/giri/ws_moveit2/install/moveit_setup_srdf_plugins:/home/giri/ws_moveit2/install/moveit_setup_core_plugins:/home/giri/ws_moveit2/install/moveit_setup_controllers:/home/giri/ws_moveit2/install/moveit_setup_app_plugins:/home/giri/ws_moveit2/install/moveit_setup_framework:/home/giri/ws_moveit2/install/moveit_servo:/home/giri/ws_moveit2/install/moveit_ros:/home/giri/ws_moveit2/install/moveit_ros_visualization:/home/giri/ws_moveit2/install/moveit_hybrid_planning:/home/giri/ws_moveit2/install/moveit_ros_planning_interface:/home/giri/ws_moveit2/install/moveit_ros_benchmarks:/home/giri/ws_moveit2/install/moveit_ros_warehouse:/home/giri/ws_moveit2/install/moveit_ros_robot_interaction:/home/giri/ws_moveit2/install/moveit_ros_perception:/home/giri/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/giri/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/giri/ws_moveit2/install/moveit_ros_move_group:/home/giri/ws_moveit2/install/moveit_planners_ompl:/home/giri/ws_moveit2/install/moveit_ros_planning:/home/giri/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/giri/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/giri/ws_moveit2/install/moveit_planners_chomp:/home/giri/ws_moveit2/install/moveit_kinematics:/home/giri/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/giri/ws_moveit2/install/chomp_motion_planner:/home/giri/ws_moveit2/install/moveit_core:/home/giri/ws_moveit2/install/srdfdom:/home/giri/ws_moveit2/install/rviz_marker_tools:/home/giri/ws_moveit2/install/rosparam_shortcuts:/home/giri/ws_moveit2/install/moveit_task_constructor_msgs:/home/giri/ws_moveit2/install/moveit_resources_prbt_support:/home/giri/ws_moveit2/install/moveit_resources:/home/giri/ws_moveit2/install/moveit_resources_pr2_description:/home/giri/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/giri/ws_moveit2/install/moveit_resources_panda_description:/home/giri/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/giri/ws_moveit2/install/moveit_resources_fanuc_description:/home/giri/ws_moveit2/install/moveit_common:/home/giri/ros2_ws/install/my_robot_bringup:/home/giri/ros2_ws/install/my_robot_interfaces:/home/giri/ws_moveit2/install/moveit_configs_utils:/home/giri/ws_moveit2/install/launch_param_builder:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/giri/hexrov/build/hexrov_bringup
+[0.757s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hexrov_bringup)
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_bringup' for CMake module files
+[0.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giri/hexrov/build/hexrov_bringup' returned '0': CMAKE_PREFIX_PATH=/home/giri/hexrov/install/hexrov_description:/home/giri/hexrov/install/hexrov_firmware:/home/giri/hexrov/install/hexrov_bringup:/home/giri/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/giri/ws_moveit2/install/moveit_runtime:/home/giri/ws_moveit2/install/moveit2_tutorials:/home/giri/ws_moveit2/install/moveit:/home/giri/ws_moveit2/install/moveit_planners:/home/giri/ws_moveit2/install/pilz_industrial_motion_planner:/home/giri/ws_moveit2/install/moveit_visual_tools:/home/giri/ws_moveit2/install/moveit_task_constructor_visualization:/home/giri/ws_moveit2/install/moveit_task_constructor_demo:/home/giri/ws_moveit2/install/moveit_task_constructor_capabilities:/home/giri/ws_moveit2/install/moveit_task_constructor_core:/home/giri/ws_moveit2/install/moveit_ros_control_interface:/home/giri/ws_moveit2/install/moveit_plugins:/home/giri/ws_moveit2/install/moveit_simple_controller_manager:/home/giri/ws_moveit2/install/moveit_setup_assistant:/home/giri/ws_moveit2/install/moveit_setup_srdf_plugins:/home/giri/ws_moveit2/install/moveit_setup_core_plugins:/home/giri/ws_moveit2/install/moveit_setup_controllers:/home/giri/ws_moveit2/install/moveit_setup_app_plugins:/home/giri/ws_moveit2/install/moveit_setup_framework:/home/giri/ws_moveit2/install/moveit_servo:/home/giri/ws_moveit2/install/moveit_ros:/home/giri/ws_moveit2/install/moveit_ros_visualization:/home/giri/ws_moveit2/install/moveit_hybrid_planning:/home/giri/ws_moveit2/install/moveit_ros_planning_interface:/home/giri/ws_moveit2/install/moveit_ros_benchmarks:/home/giri/ws_moveit2/install/moveit_ros_warehouse:/home/giri/ws_moveit2/install/moveit_ros_robot_interaction:/home/giri/ws_moveit2/install/moveit_ros_perception:/home/giri/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/giri/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/giri/ws_moveit2/install/moveit_ros_move_group:/home/giri/ws_moveit2/install/moveit_planners_ompl:/home/giri/ws_moveit2/install/moveit_ros_planning:/home/giri/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/giri/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/giri/ws_moveit2/install/moveit_planners_chomp:/home/giri/ws_moveit2/install/moveit_kinematics:/home/giri/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/giri/ws_moveit2/install/chomp_motion_planner:/home/giri/ws_moveit2/install/moveit_core:/home/giri/ws_moveit2/install/srdfdom:/home/giri/ws_moveit2/install/rviz_marker_tools:/home/giri/ws_moveit2/install/rosparam_shortcuts:/home/giri/ws_moveit2/install/moveit_task_constructor_msgs:/home/giri/ws_moveit2/install/moveit_resources_prbt_support:/home/giri/ws_moveit2/install/moveit_resources:/home/giri/ws_moveit2/install/moveit_resources_pr2_description:/home/giri/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/giri/ws_moveit2/install/moveit_resources_panda_description:/home/giri/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/giri/ws_moveit2/install/moveit_resources_fanuc_description:/home/giri/ws_moveit2/install/moveit_common:/home/giri/ros2_ws/install/my_robot_bringup:/home/giri/ros2_ws/install/my_robot_interfaces:/home/giri/ws_moveit2/install/moveit_configs_utils:/home/giri/ws_moveit2/install/launch_param_builder:/home/giri/ros2_ws/install/trial:/home/giri/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/giri/hexrov/build/hexrov_bringup
+[0.758s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_bringup' for CMake config files
+[0.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexrov_bringup', 'cmake_prefix_path')
+[0.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/hook/cmake_prefix_path.ps1'
+[0.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/hook/cmake_prefix_path.dsv'
+[0.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/hook/cmake_prefix_path.sh'
+[0.760s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_bringup/bin'
+[0.760s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_bringup/lib/pkgconfig/hexrov_bringup.pc'
+[0.760s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_bringup/lib/python3.10/site-packages'
+[0.760s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_bringup/bin'
+[0.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/package.ps1'
+[0.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/package.dsv'
+[0.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/package.sh'
+[0.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/package.bash'
+[0.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/package.zsh'
+[0.762s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giri/hexrov/install/hexrov_bringup/share/colcon-core/packages/hexrov_bringup)
+[0.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hexrov_bringup)
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_bringup' for CMake module files
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_bringup' for CMake config files
+[0.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('hexrov_bringup', 'cmake_prefix_path')
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/hook/cmake_prefix_path.ps1'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/hook/cmake_prefix_path.dsv'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/hook/cmake_prefix_path.sh'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_bringup/bin'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_bringup/lib/pkgconfig/hexrov_bringup.pc'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_bringup/lib/python3.10/site-packages'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/giri/hexrov/install/hexrov_bringup/bin'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/package.ps1'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/package.dsv'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/package.sh'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/package.bash'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/giri/hexrov/install/hexrov_bringup/share/hexrov_bringup/package.zsh'
+[0.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giri/hexrov/install/hexrov_bringup/share/colcon-core/packages/hexrov_bringup)
+[0.817s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.817s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.817s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.817s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.822s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.822s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.822s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.833s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.834s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giri/hexrov/install/local_setup.ps1'
+[0.835s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/giri/hexrov/install/_local_setup_util_ps1.py'
+[0.836s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giri/hexrov/install/setup.ps1'
+[0.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giri/hexrov/install/local_setup.sh'
+[0.839s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/giri/hexrov/install/_local_setup_util_sh.py'
+[0.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giri/hexrov/install/setup.sh'
+[0.842s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giri/hexrov/install/local_setup.bash'
+[0.843s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giri/hexrov/install/setup.bash'
+[0.846s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giri/hexrov/install/local_setup.zsh'
+[0.846s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giri/hexrov/install/setup.zsh'
